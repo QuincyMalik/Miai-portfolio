@@ -3,7 +3,7 @@
     padding: 0; ;
 }
 body{
-    background-image: url('imagges/Background.jpg');
+    background-image: url('imagges/Mickey.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -15,6 +15,14 @@ body{
 .header img{
     width: 150px;
     height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 0 -8px;
+}
+.main{
+    background-color:rgba(red, green, blue, alpha);
+    color:aqua
+    
 }
 .social ul{ 
     list-style: none;}
